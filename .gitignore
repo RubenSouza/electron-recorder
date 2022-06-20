@@ -1,0 +1,4 @@
+# Ignore a pasta node_modules
+node_modules
+#ignora o deploy do aplicativo
+dist

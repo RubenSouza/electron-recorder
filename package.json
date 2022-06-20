@@ -1,0 +1,25 @@
+{
+  "name": "recorder",
+  "version": "1.0.0",
+  "description": "recorder app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start_dev": "set NODE_ENV=development&&electron .",
+    "pack":"electron-builder --dir",
+    "dist": "electron-builder"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "RubenSouza.com.github.recorder",
+    "win": {
+      "icon": "./assets/images/iconProgram.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^18.0.3",
+    "electron-builder": "^23.0.3"
+  }
+}
